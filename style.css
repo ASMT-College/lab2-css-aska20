@@ -1,0 +1,30 @@
+.flex-container {
+    display: flex;
+    background-color: bisque;
+    flex-direction: column;
+
+    @media (min-width: 600px) {
+        flex-direction: row;
+    }
+}
+
+.flex-item {
+    background-color: DodgerBlue;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+    /* flex: 1;  */
+
+}
+
+.flex-item.grow-3 {
+    flex-grow: 3;
+}
+header{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+
