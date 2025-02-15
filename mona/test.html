@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form	action="submit.php"	method ="POST">
+        <fieldset>
+        <legend>Login:	</legend>
+        Username:<br>
+        <input	type="text"	name="username"	placeholder="username">
+        <br>
+        Password:<br>
+        <input	type="password"	name="password"	placeholder="password"	>
+        <br><br>
+        <input	type="submit"	value="Submit">
+        </fieldset>
+        </form>
+
+
+        <form	action="submit.php">
+            <select	name="country">
+            <option	value="nepal">Nepal</option>
+            <option	value="bhutan">Bhutan</option>
+            <option	value="us">USA</option>
+            </select>
+            <input	type="submit">
+            </form>
+            <br>
+            <form	action="submit.php">
+                <input	list="countries"	name="country">
+                <datalist id="countries">
+                <option	value="nepal">Nepal</option>
+                <option	value="bhutan">Bhutan</option>
+                <option	value="us">USA</option>
+                </datalist>
+                <input	type="submit">
+                </form>
+
+
+                <form	action="action_page.php"	
+oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+0
+<input	type="range"	id="a"	name="a"	value="50">
+100	+
+<input	type="number"	id="b"	name="b"	value="50">
+=
+<output	name="x"	for="a	b"></output>
+<br><br>
+<input	type="submit">
+</form>
+
+
+</body>
+</html>
